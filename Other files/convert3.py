@@ -1,0 +1,5 @@
+data = open("test3.txt", "rb").read()
+data = data.replace("PLUSE", "+")
+data = data.replace("SLASH", "/")
+f = open("test4.txt", "w")
+f.write(data)
